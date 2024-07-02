@@ -1,0 +1,6 @@
+{
+   "mongoURI": "mongodb+srv://amishatandon2003:oDnBuBFaV97iO6Iy@url-shortener.qlo2ymj.mongodb.net/myDatabase",
+    "baseUrl": "http://localhost:8080"
+  }
+  
+  

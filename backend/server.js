@@ -4,10 +4,9 @@ const config = require('config');
 
 const app = express();
 
-// MongoDB URI from config
 const db = config.get('mongoURI');
 
-// Connect to MongoDB
+
 mongoose.connect(db, {
 
 })
@@ -19,7 +18,7 @@ mongoose.connect(db, {
 
 app.use(express.json());
 
-// Routes
+
 app.use('/api/url', require('./routes/url'));
 
 const PORT = 8080;

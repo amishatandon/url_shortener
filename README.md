@@ -36,10 +36,6 @@ Stores the mapping between original URLs and their corresponding shortened codes
 
 ## Getting Started
 ## Clone the Repository:
-bash
-
-Copy code
-
 git clone <repository-url>
 
 cd <repository-directory>
@@ -48,33 +44,19 @@ cd <repository-directory>
 Navigate to the backend directory.
 
 ## Install dependencies:
-bash
-
-Copy code
-
 npm install
 
 ## Start the server:
-bash
-
-Copy code
-
 npm start
 
 ## Set Up the Flutter Frontend:
 Navigate to the Flutter project directory.
 
 ## Install dependencies:
-bash
-
-Copy code
-
 flutter pub get
 
-## Run the Flutter app:
-bash
+Run the Flutter app
 
-Copy code
 
 flutter run
 
